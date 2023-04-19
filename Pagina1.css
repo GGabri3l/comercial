@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:radial-gradient(#413269, #090711);
+    overflow-x: hidden; 
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+a :hover{
+    opacity: 0.7;
+ }
+
+ .logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    background: #000000;
+    height: 8vh;
+ }
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+ .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+ nav li a:hover{
+    background-color: #fff;
+    color: #23232e;
+    border-radius: 60px;
+ }
+
+ h1.titulo{
+    font-family: 'Jost', sans-serif;
+ }
+
+ h2.stitulo{
+    font-family: 'Jost', sans-serif;
+ }
+
+ .banner{
+    height: 90vh;
+    background: url(https://image.huion.com/home/index-tuijian-Studio24.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .texto .titulo{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #ffffff;
+ }
+
+ .texto .stitulo{
+    color: #000000;
+    font-size: 56px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #fff;
+ }
+
+ .wacom{
+    height: 70vh;
+    background: url("https://wcm-cdn.wacom.com/-/media/images/products/pen-displays/wacom-cintiq-pro-27/more-screen-fc.jpg?h=600&iar=0&w=1400&rev=6d54d885e19b41b99e664c081730a3ac&hash=EB3AFD39878A830BACE656EBB926EC70");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .texto2 .titulo1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #383838;
+    text-align: left;
+    padding-right: 900px;
+    padding-bottom: 30px;
+ }
+
+ .texto2 .stitulo1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #424242;
+    text-align: left;
+ }
+
+ .Pen{
+    height: 70vh;
+    background: url("https://wcm-cdn.wacom.com/-/media/images/products/pen-displays/wacom-cintiq-pro-27/settings-f.png?h=600&iar=0&w=1400&rev=5ce0346a9cde42328010cdbe21fd06ce&hash=9CD6A6CA0AFB66C03B1BF69F8632F5BD");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .texto3 .titulo2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #383838;
+    text-align: left;
+    padding-right: 1020px;
+    padding-bottom: 30px;
+ }
+
+ .texto3 .stitulo2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500px;
+    text-shadow: 2px 2px #424242;
+    text-align: left;
+}
+
+footer{
+    background-color: #090711;
+}
+
+.footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.7;
+    transition: 0.3;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}

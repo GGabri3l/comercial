@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: jost;
+}
+
+body{
+    background-color: #0d0d11;
+    overflow-x: hidden; 
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+a :hover{
+    opacity: 0.7;
+ }
+
+ .logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    background: #000000;
+    height: 8vh;
+ }
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+ .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+ nav li a:hover{
+    background-color: #fff;
+    color: #23232e;
+    border-radius: 60px;
+}
+
+.banner1{
+   height: 80vh;
+   background: url("https://www.huion.com/statics/hw/site/img/Kamvas_Studi_24/images/KamvasStudio24-forpros-bg.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.texto .titulo{
+   color: #ffffff;
+   font-size: 60px;
+   font-weight: 500px;
+   text-shadow: 2px 2px #000000;
+   padding-top: 400px;
+   
+}
+
+.texto .stitulo{
+   color: #ffffff;
+   font-size: 35px;
+   font-weight: 500px;
+   text-shadow: 2px 2px #000000;
+}
+
+.sobre{
+   border-style: none;
+   background-color: #17161b;
+   border-radius: 40px;
+   margin-bottom: 10px;
+}
+
+.heading{
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   margin: 20px auto;
+}
+
+.heading h1{
+   font-size: 50px;
+   color: aliceblue;
+   margin-bottom: 25px;
+   position: relative;
+}
+
+.heading p{
+   font-size: 18px;
+   color: rgb(223, 228, 233);
+   margin-bottom: 35px;
+}
+
+.container{
+   width: 90%;
+   margin: 0 auto;
+   padding: 10px 20px;  
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.about-image{
+   flex: 1;
+   margin-right: 40px;
+   overflow: hidden;
+}
+
+.about-image img{
+   max-width: 100%;
+   height: auto;
+   display: block;
+   border-radius: 20px;
+}
+
+.about-content{
+   flex: 1;
+}
+
+.about-content h2{
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: aliceblue; 
+}
+
+.about-content p{
+   font-size: 23px;
+   line-height: 1.5;
+   color: aliceblue;
+}
+
+.heading2{
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   margin: 20px auto;
+}
+
+.heading2 h1{
+   font-size: 50px;
+   color: aliceblue;
+   margin-bottom: 25px;
+   position: relative;
+}
+
+.heading2 p{
+   font-size: 35px;
+   color: rgb(223, 228, 233);
+   margin-bottom: 35px;
+}
+
+footer{
+   background-color: #090711;
+}
+
+.footer{
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.footer ul{
+   display: flex;
+   justify-content: center;
+
+}
+
+.footer ul li a{
+   color: #fff;
+   margin: 20px;
+   text-decoration: none;
+   font-size: 18px;
+   opacity: 0.7;
+   transition: 0.3;
+}
+
+.footer ul li a:hover{
+   opacity: 1;
+}
